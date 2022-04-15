@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    margin: 20px 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+h2 {
+    margin: 30px 0;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin: 20px 0;
+    font-style: italic;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.clear-fix {
+    zoom: 1;
+}
+
+.clear-fix::after {
+    content: " ";
+    display: table;
+    clear: both;
+    visibility: hidden;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* intro */
+.img {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.text {
+    display: inline-block;
+    font-style: italic;
+    font-weight: 500
+}
+
+/* Image */
+
+.hero-img img{
+    width: 100%;
+    margin: 30px 0;
+}
+
+
+/* Ingredient Section */
+
+.ingredient {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type=checkbox]{
+    transform: scale(1.5);
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.text1 {
+    display: inline-block;
+    text-align: left;
+    margin-top: -3px;
+}
+
+.bold-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+
+
+.main-section1 {
+    width: 70%;
+    float: left;
+}
+
+.instruc1 {
+    display: flex;
+    margin-bottom: 30px;
+
+}
+
+
+.material-icons1 {
+    float: left;
+    font-size: 50px;
+    margin-right: 0px;
+    display: inline-block;
+    padding-right: 10px;
+    color: #ff7f50;
+}
+
+.description {
+    display: inline-block;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-top: 5px;
+}
+
+/* Right Section */
+.right {
+    float: right;
+    border-radius: 10px;
+    width: 20%;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px -1px 17px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -1px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 17px 0px rgba(0,0,0,0.75);
+}
+
+.right-section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.material-icons {
+    margin-right: 10px;
+}
+
+.restaurant_menu {
+    color: #ff7f50;
+}
+
+.gray {
+    font-size: 12px;
+    color: gray;
+}
+
+.time {
+    color: #000000;
+    font-size: 16px;
+}
+
+.one {
+    padding-right: 10px;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+/* Media Queries */
+
+/* smaller to larger phones */
+@media only screen and (max-width:480px) {
+    .container {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+    }
+    .container1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin: 30px 10px;
+    }
+
+    .subsection {
+        width: 100%;
+        display: flex;
+    }
+
+    .text1 {
+        font-size: 14px;
+    }
+
+    .img {
+        margin: 0 10px;
+    }
+    .text {
+        font-size: 14px;
+        /* text-overflow: inherit; */
+    }
+    .hero-img {
+        padding: 10px;
+    }
+    .hero-img img{
+        width: 100%;
+    }
+
+    .bold-text {
+        font-size: 14px;
+    }
+    .main-section1{
+        width: 100%;
+        padding: 10px;
+        /* font-size: 14px; */
+    }
+
+    input[type=checkbox]{
+        transform: scale(1.2);
+    }
+
+    .right-subsection{
+        display: flex;
+        flex-direction: row;
+        /* padding: 10px; */
+    }
+
+    .right{
+        width: 100%;
+        box-shadow: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px 5px;
+    }
+
+
+    
+}
