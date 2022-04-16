@@ -37,9 +37,9 @@
 
 ## Overview
 
-![screenshot]('screenshot.png')
+![screenshot](screenshot.png)
 
-This is a recipe blog page. I can be viewed here https://kinjames.github.io/dev-challenge-recipe-page/, this project taught me alot. And one importaant lesson i learnt is to tackle all projects with all seriousness. Never undermine any project or feel like a project is too easy so you can just relax on it. The amzing thing about coding is that it gives you this sense of accomplishment when you complete a project and that is the same way it gets you frustrated when something is not working. 
+This is a recipe blog page. It can be viewed here https://kinjames.github.io/dev-challenge-recipe-page/, this project taught me alot. And one importaant lesson i learnt is to tackle all projects with all seriousness. Never undermine any project or feel like a project is too easy so you can just relax on it. The amzing thing about coding is that it gives you this sense of accomplishment when you complete a project and that is the same way it gets you frustrated when something is not working. 
 
 
 
